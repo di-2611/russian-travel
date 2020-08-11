@@ -1,0 +1,15 @@
+.photo-grid_position {
+    margin: auto;
+    margin-top: 92px;
+}
+@media (min-width : 768px) and (max-width : 1023px) {
+    .photo-grid_position {
+      margin-left: 24px;
+      margin-right: 24px;
+    }
+  }
+@media (max-width : 767px) {
+    .photo-grid_position {
+      margin-top: 64px;
+    }         
+}

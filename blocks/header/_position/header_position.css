@@ -1,0 +1,19 @@
+.header_position {
+    margin: auto;
+    padding-top: 28px;
+    margin-bottom: 56px;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+@media (max-width : 1279px) {
+    .header_position {
+        margin-bottom: 48px;
+      }
+    }
+@media (max-width : 767px) {
+    .header_position {
+        padding-top: 16px;
+      }
+    }
