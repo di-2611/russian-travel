@@ -2,15 +2,3 @@
     max-width: 1184px;
     position: relative;
   }
-.cover::before {
-    content: '';
-    display: block;
-    background-image: url(../../images/cover-trains.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    padding-bottom: 50.5%;
-    opacity: .8;
-  }
-.cover:hover::before {
-    opacity: .3;
-  }

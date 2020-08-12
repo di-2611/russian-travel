@@ -1,4 +1,4 @@
-.lead_position {
+.content__lead {
     margin: auto;
     margin-top: 56px;
     display: flex;
@@ -7,7 +7,7 @@
     align-items: center;
 }
 @media (max-width : 767px) {
-    .lead_position {
+    .content__lead {
         margin-top: 48px;
       }
     }

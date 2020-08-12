@@ -1,14 +1,15 @@
 .place__paragraph {
-    font-family: Inter;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 163%;
     color: #FFFFFF;
     margin: auto;
-  }
-  .place__paragraph:nth-child(1) {
+    margin-top: 0;
     margin-bottom: 24px;
+  }
+  .place__paragraph:last-child {
+    margin-bottom: 0;
   }
 @media (min-width : 768px) and (max-width : 1023px) {
  .place__paragraph {
