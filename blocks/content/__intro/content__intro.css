@@ -12,8 +12,3 @@
         margin-top: 86px;
         }
     }
-@media (min-width : 1024px) and (max-width : 1279px) {
-    .content__intro {
-        max-width: 928px;
-        }
-    }
